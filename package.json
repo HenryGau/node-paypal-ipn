@@ -1,0 +1,23 @@
+{
+	"name": "node-paypal-ipn",
+	"version": "0.0.1",
+	"description": "A simple Paypal IPN listener written in Node.js",
+	"dependencies": {
+		"body-parser": "^1.12.2",
+		"colors": ">= 0.6.2",
+		"express": ">= 3.4.8",
+		"request": ">= 2.31.0"
+	},
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"keywords": [
+		"paypal",
+		"IPN",
+		"listner"
+	],
+	"engines": {
+		"node": ">=0.10"
+	}
+}
