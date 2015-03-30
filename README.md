@@ -1,5 +1,8 @@
 # node-paypal-ipn
 NodeJS sample code to listen to Paypal IPN (Instant Payment Notification) and verify the message.
+Please refer to 
+https://developer.paypal.com/webapps/developer/docs/classic/ipn/integration-guide/IPNIntro/
+for more information on the API
 
 ## How to install
 ```
