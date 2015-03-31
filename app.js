@@ -34,7 +34,7 @@ app.post('/', function(req, res) {
 
 	// STEP 1: read POST data
 	req.body = req.body || {};
-	res.send(200, 'OK');
+	res.status(200).send('OK');
 	res.end();
 
 	// read the IPN message sent from PayPal and prepend 'cmd=_notify-validate'
@@ -109,4 +109,4 @@ app.post('/', function(req, res) {
 var port = 80;
 app.listen(port);
 var msg = 'Listening at http://localhost:' + port;
-console.log(msg.green.bold);Z
+console.log(msg.green.bold);
